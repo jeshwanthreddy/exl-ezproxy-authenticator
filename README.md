@@ -20,7 +20,7 @@ The value should then be compacted and added in the `EZPROXY_GROUP_MAPPING` envi
 {"Staff":["ST"],"Graduate Students":["GR","DC"],"Everyone": ["*"]}
 ```
 
-In addition, an Alma API key with read/write access for users is required and should be in the `ALMA_APIKEY` environment variable.
+In addition, an Alma API key with read access for users is required and should be in the `ALMA_APIKEY` environment variable.
 
 ## Deploying and Configuring the Authenticator
 The easiest way to use this authenticator is to use Amazon Web Services (AWS). AWS has starter and free tiers which make hosting the authenticator nearly free. To deploy to AWS, log into your account (or create a new one). Then follow the instructions below.
