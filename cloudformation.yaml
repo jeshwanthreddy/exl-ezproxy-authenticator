@@ -34,8 +34,8 @@
         LayerName: !Sub "${AWS::StackName}-Dependencies"
         ContentUri: ./dependencies
         CompatibleRuntimes:
-          - nodejs10.x
-          - nodejs12.x
+          - nodejs18.x
+          - nodejs20.x
         LicenseInfo: 'Apache-2.0'
     LambdaExecutionRole:
       Type: AWS::IAM::Role
